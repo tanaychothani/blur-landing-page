@@ -1,0 +1,101 @@
+.html {
+    font-family: sans-serif;
+    line-height: 1.5;
+
+}
+
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.9)
+    color: #fff;
+}
+
+.branding{
+    background: url(bg-image.jpg) no-repeat center center fixed;
+    height: 100vh;
+    width: 100%;
+    filter: blur(10px);
+    -webkit filter: blur(10px);
+    transition: all 100ms;
+    border-color: black ;
+}
+
+.branding:hover {
+ filter: blur(0px);   
+ transition: 0.1s;
+ ;
+}
+
+.about-us {
+    height: 300px;
+    width: 100%;;
+}
+
+h1 {
+    color: #fff;
+}
+
+p { 
+    color: #fff;
+
+}
+
+.services {
+    width: 100%%;
+    display: block;
+    color: #fff;
+    height: 290px;
+    background-color: black;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+}
+
+footer {
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 35.2px;
+    text-align: center;
+}
+
+/* .title {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.text {
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+ */
+
+ .content {
+     position: absolute;
+     z-index: 1;
+     top: 10%;
+     left: 50%;
+     margin-top: 105 px;
+     margin-left: -145px;
+     width: 300px;
+     height: 350px;
+     text-align: center;
+ }
+
+.service-logo {
+    align-self: center;
+}
+
+.service-title {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
